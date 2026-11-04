@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "TIMBERMEN TREE SERVICES | Professional Tree Care Services",
   description:
     "Expert arborist services including tree removal, pruning, planting, and emergency services with certified professionals.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function Home() {
