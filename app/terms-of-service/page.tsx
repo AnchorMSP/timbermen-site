@@ -3,6 +3,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Terms of Service | TIMBERMEN TREE SERVICES',
   description: 'Terms of service for TIMBERMEN TREE SERVICES - Professional tree care services in Springfield, Missouri.',
+  alternates: {
+    canonical: '/terms-of-service',
+  },
 }
 
 export default function TermsOfServicePage() {

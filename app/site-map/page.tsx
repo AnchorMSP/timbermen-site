@@ -4,6 +4,9 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Sitemap | TIMBERMEN TREE SERVICES',
   description: 'Sitemap for TIMBERMEN TREE SERVICES - Find all pages and services on our website.',
+  alternates: {
+    canonical: '/site-map',
+  },
 }
 
 export default function SitemapPage() {
