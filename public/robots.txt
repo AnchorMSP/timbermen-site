@@ -1,5 +1,7 @@
+# AI search and answer engines are welcome so the site can be cited in AI answers.
 User-agent: *
 Allow: /
+Content-Signal: search=yes, ai-input=yes
 
 User-agent: GPTBot
 Allow: /
@@ -11,6 +13,12 @@ User-agent: ChatGPT-User
 Allow: /
 
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: PerplexityBot
