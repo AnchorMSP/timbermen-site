@@ -6,6 +6,7 @@ import About from "@/components/about";
 import Plan from "@/components/plan";
 import Projects from "@/components/projects";
 import Testimonials from "@/components/testimonials";
+import FAQ from "@/components/faq";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
@@ -29,6 +30,7 @@ export default function Home() {
       <Plan />
       <Projects />
       <Testimonials />
+      <FAQ />
       <Contact />
       <Footer />
     </div>
