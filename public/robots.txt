@@ -4,7 +4,16 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 User-agent: Google-Extended
@@ -18,5 +27,8 @@ Allow: /
 
 User-agent: Claude-Web
 Allow: /
+
+# IndexNow (https://www.bing.com/indexnow/getstarted)
+# Key file: https://timbermentrees.com/f4383469fcad6d0e61f5fdafa9098a0f.txt
 
 Sitemap: https://timbermentrees.com/sitemap.xml
