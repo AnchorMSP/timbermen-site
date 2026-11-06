@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Hero from "@/components/hero";
 import Problem from "@/components/problem";
 import Services from "@/components/services";
+import TreeService from "@/components/tree-service";
 import About from "@/components/about";
 import Plan from "@/components/plan";
 import Projects from "@/components/projects";
@@ -12,9 +13,9 @@ import Navbar from "@/components/navbar";
 // import SideTreeChop from "@/components/SideTreeChop"; // Commented out - tree animation removed but keeping code for future use
 
 export const metadata: Metadata = {
-  title: "TIMBERMEN TREE SERVICES | Professional Tree Care Services",
+  title: "Tree Service in Springfield, MO | Timbermen Tree Services",
   description:
-    "Expert arborist services including tree removal, pruning, planting, and emergency services with certified professionals.",
+    "Licensed and insured tree service in Springfield, Missouri. Expert tree removal, pruning, stump grinding, lot clearing, and debris hauling for residential and commercial properties since 2021.",
 };
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <Services />
+      <TreeService />
       <About />
       <Plan />
       <Projects />

@@ -136,7 +136,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Tree Removal
@@ -144,7 +144,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Pruning & Trimming
@@ -152,7 +152,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Tree Health Care
@@ -160,7 +160,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Wood Chipping & Debris Hauling
@@ -168,7 +168,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Stump Grinding/Removal
@@ -176,7 +176,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Lot & Brush Clearing
