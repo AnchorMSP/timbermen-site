@@ -3,6 +3,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Privacy Policy | TIMBERMEN TREE SERVICES',
   description: 'Privacy policy for TIMBERMEN TREE SERVICES - How we collect, use, and protect your personal information.',
+  alternates: {
+    canonical: '/privacy-policy',
+  },
 }
 
 export default function PrivacyPolicyPage() {
